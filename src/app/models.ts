@@ -15,8 +15,8 @@ export interface Game {
 
 }
 
-export interface APIResponse<T>{
-    results : Array<T>
+export interface APIResponse<T> {
+    results: Array<T>
 }
 
 interface Genre {
@@ -24,6 +24,7 @@ interface Genre {
 }
 interface ParentPlatform {
     platform: {
+        slug: string;
         name: string;
     }
 }
